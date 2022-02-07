@@ -2,7 +2,7 @@ import sys
 
 input = lambda: sys.stdin.readline().rstrip()
 # sys.setrecursionlimit(10**6)
-# 개선된 다익스트라 알고리즘 소스코드
+
 n, s, m = map(int, input().split())
 data = list(map(int, input().split()))
 result = result = [[0] * (m + 1) for _ in range(n)]
