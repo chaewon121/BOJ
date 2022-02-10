@@ -8,6 +8,7 @@ data = list(map(int, input().split()))
 start = 0
 end = max(data)
 
+
 while start <= end:
     mid = (start + end) // 2
     cnt = 0
